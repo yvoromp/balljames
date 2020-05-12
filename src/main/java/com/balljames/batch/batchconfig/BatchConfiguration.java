@@ -18,8 +18,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-import com.balljames.batch.model.GameData;
 import com.balljames.batch.processor.GameDataProcessor;
+import com.balljames.model.GameData;
 
 @Configuration
 @EnableBatchProcessing

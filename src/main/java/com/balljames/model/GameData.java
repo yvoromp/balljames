@@ -1,10 +1,24 @@
-package com.balljames.batch.model;
+package com.balljames.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "gameData")
 public class GameData {
-
+	
+	@Id
+	@GeneratedValue
+	private int id;
 	private double x_1;
 	private double y_1;
 	private double z_1;
