@@ -2,7 +2,7 @@ package com.balljames.batch.batchconfig;
 
 public class ConfigConstants {
 	
-	public static final String FILE_PATH = "20200223_Heracles_vs_Ajax_20200223_Heracles_vs_Ajax.txt";
+	public static final String FILE_PATH = "20200223_Heracles_vs_Ajax.txt";
 
 	public static final String REGEX_FORMAT =
 			"[\\D\\d]*:([\\d+.-]*),([\\d+.-]*),([\\d+.-]*),([\\d+.-]*);"
